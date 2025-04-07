@@ -1,0 +1,33 @@
+{
+  "name": "01-npm-testing-lib",
+  "version": "1.0.0",
+  "description":"it is only a testing npm lib to learn how to public packages",
+  "keywords":[],
+  "license": "MIT",
+  "author": "Qugodev",
+  "main": "dist-node/index.js",
+  "types": "dist-node/index.d.ts",
+  "browser": "dist-browser/index.js",
+  "scripts": {
+   "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
+   "build-node": "tsc src/index.ts --outDir dist-node",
+   "build": "npm run build-browser && npm run build-node"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quinteroo/ts-only-utils"
+  },
+  "homepage": "https://github.com/quinteroo/ts-only-utils#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src",
+    "dist-node",
+    "dist-browser",
+    "README.md"
+  ]
+}
