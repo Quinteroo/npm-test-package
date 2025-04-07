@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/quinteroo/ts-only-utils"
+    "url": "https://github.com/Quinteroo/npm-test-package"
   },
-  "homepage": "https://github.com/quinteroo/ts-only-utils#readme",
+  "homepage": "https://github.com/Quinteroo/npm-test-package#readme",
   "engines": {
     "node": ">=14.0.0"
   },
